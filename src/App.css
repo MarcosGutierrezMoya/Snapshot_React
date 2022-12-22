@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+}
+.App {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#title{
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 5rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.img{
+  height: 10rem;
+  width: 15rem;
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+}
+.img:hover{
+  background-size: 150%;
+  background-position: center;
+}
